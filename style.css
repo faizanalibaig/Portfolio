@@ -1,0 +1,965 @@
+@font-face {
+    font-family: myfont;
+    src: url('Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf');
+    font-weight: 320;
+}
+
+@font-face {
+    font-family: myfontfirst;
+    src: url('DMSans_18pt-SemiBold.ttf');
+}
+
+@font-face{
+    font-family: mythird;
+    src: url('DMSans_18pt-Light.ttf');
+}
+
+@font-face{
+    font-family: portfolio;
+    src: url('Handjet-Medium.ttf');
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    width: 100%;
+    font-family: myfontfirst;
+    margin-top: 0px ;
+    background-color: #DDE6ED;
+    padding: 10px 0px;
+    /* width: 100vw; Use max-width instead of min-width */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    box-sizing: border-box;
+    color: #27374D;
+    border-bottom: 1px solid rgba(39, 55, 77, 0.05);
+
+}
+.header-design {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between; /* Aligns items at opposite ends */
+    align-items: center; /* Aligns items vertically */
+    
+}
+#hash-faiz{
+    font-size: 32px;
+    padding-top: 0px;
+}
+
+
+#port-folio{
+    font-family: portfolio;
+    font-size: 36px;
+}
+
+ #cv-design {
+    border: 2px solid #27374D;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    margin-right: 15px;
+    color: #27374D;
+    transition: all 1s ease-in 0s ;
+}
+
+#cv-design:hover, #cv-design:active{
+    border: 2px solid #27374D;
+    background-color: #27374D;
+    color: #DDE6ED;
+}
+
+
+main{
+    font-family: myfontfirst;
+    /* width: 100vw; */
+    box-sizing: border-box;
+    color: #27374D;
+    background-color: #DDE6ED;
+    width: 100%;
+
+
+    /* background-image: linear-gradient( #DDE6ED, #526D82); */
+
+}
+
+.intro{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-top: 120px;
+    text-align: center;
+    
+}
+#hello-there{
+    margin-top: 5px;
+    font-size:20px;
+    color:#5C4B99;
+}
+
+#faizan{
+    font-size: 42px;
+}
+
+#tip{
+    margin-top: 6px;
+    font-size: 22px;
+    opacity: 0.5;
+}
+
+#main-info{
+    font-family: mythird;
+    margin-top:7px ;
+    font-size: 22px;
+}
+
+
+.stuff{
+    font-family: myfontfirst;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px ;
+}
+
+.stuff-know{
+    font-size: 35px;
+}
+
+.table-stuff{
+    border-collapse: collapse;
+    margin-top: 20px;
+   text-align: left;
+   background-color: transparent;
+}
+table, tr{
+    font-family: mythird;
+    font-size: 20px;
+    border: 2px solid rgba(39, 55, 77, 0.2);  
+    border: 2px solid rgba(39, 55, 77, 0.2);
+}
+
+.td-table{
+    padding: 15px 280px 15px 10px;
+}
+
+.tr-table:hover, .tr-table:active{
+    color: #DDE6ED;
+    background-color: #27374D;
+}
+
+
+
+.project-1{
+    font-family: myfontfirst;
+    margin-top: 200px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    text-align: center;
+    color: #27374D;
+}
+
+.projects{
+    font-family: myfontfirst;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.project-boxes{
+    font-family: myfontfirst;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.project-box1{
+    height: 420px;
+    width: 420px;
+    background-color: #DDE6ED;
+    border: 1px solid #DDE6ED;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.2);
+    margin-bottom: 50px;
+
+}
+
+.whisper{
+    text-align: center; 
+    font-size: 20px; 
+    margin-top: 5px;
+    color: #27374D;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(39, 55, 77, 0.1);
+
+}
+
+.whisper-project{
+    padding: 8px;
+    font-family: mythird;
+    margin-bottom: 5px;
+}
+
+#image-1{
+    width: 420px;
+ height: 220px;
+ border-radius: 10px 10px 0 0;
+}
+
+
+#image-2{
+    width: 420px;
+ height: 220px;
+ border-radius: 10px 10px 0 0;
+}
+
+
+#image-3{
+    width: 420px;
+ height: 220px;
+ border-radius: 10px 10px 0 0;
+}
+
+.project-box2{
+    
+    height: 420px;
+
+    width: 420px;
+    background-color: #DDE6ED;
+    
+    border: 1px solid #DDE6ED;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.1);
+    margin-bottom: 50px;
+
+
+}
+
+
+.project-box3{
+    
+    height: 420px;
+    width: 420px;
+    background-color: #DDE6ED;
+    border: 1px solid #DDE6ED;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.1);
+    margin-bottom: 50px;
+}
+
+
+.git-hub-icon{
+    margin-left: 155px;
+    color: #5C4B99;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #5C4B99;
+    border-radius: 12px;
+}
+
+
+.git-hub-icon:hover{
+    color: #DDE6ED;
+    border: 2px solid #5C4B99;
+    background-color: #5C4B99;
+}
+
+
+.project-box4{
+    height: 420px;
+    width: 420px;
+    background-color: #DDE6ED;
+    border: 1px solid #DDE6ED;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.2);
+    margin-bottom: 50px;
+}
+
+
+.project-box5{
+    height: 420px;
+    width: 420px;
+    background-color: #DDE6ED;
+    border: 1px solid #DDE6ED;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.2);
+    margin-bottom: 50px;
+
+}
+
+
+.footer{
+    color: #27374D;
+    background-color: #DDE6ED;
+    box-shadow: 0px 0px 6px 1px rgba(39, 55, 77, 0.1);
+    font-family: myfontfirst;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.rights{
+    font-family: mythird;
+    padding: 40px 10px 40px 15px;
+}
+
+.made-by{
+    font-family: mythird;
+    padding: 40px 10px 40px 15px;
+    word-spacing: 2px;
+}
+
+.icons-footer{
+    text-decoration: none;
+    font-family: mythird;
+    padding: 40px 10px;
+    letter-spacing: 7px;
+}
+
+
+#foot-icon1{
+    color: #27374D;
+    text-decoration: none;
+}
+
+
+#foot-icon2{
+    color: #27374D;
+    text-decoration: none;
+}
+
+
+#foot-icon3{
+    color: #27374D;
+    text-decoration: none;
+}
+
+
+#foot-icon4{
+    color: #27374D;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 768px){
+
+    header{
+        font-family: myfontfirst;
+        margin-top: 0px ;
+        background-color: #DDE6ED;
+        padding: 10px 0px;
+        overflow-x: hidden; /* Hide horizontal overflow */
+        box-sizing: border-box;
+        color: #27374D;
+        width: 100%;
+        border-bottom: 1px solid rgba(39, 55, 77, 0.05);
+
+    }
+    #hash-faiz{
+        box-sizing: border-box;
+        font-size: 25px;
+        padding-top: 0px;
+    }
+    
+    
+    #port-folio{
+        font-family: portfolio;
+        font-size: 31px;
+    }
+    
+     #cv-design {
+        box-sizing: border-box;
+        border: 2px solid #27374D;
+        border-radius: 12px;
+        font-size: 16px;
+        padding: 5px 5px 5px 5px;
+        cursor: pointer;
+        margin-right: 15px;
+        color: #27374D;
+        transition: all 1s ease-in 0s ;
+    }
+    
+    main{
+        font-family: myfontfirst;
+        /* width: 100vw; */
+        box-sizing: border-box;
+        color: #27374D;
+        background-color: #DDE6ED;
+        width: 100%;
+        /* background-image: linear-gradient( #DDE6ED, #526D82); */
+    
+    }
+    
+    #hello-there{
+        margin-top: 5px;
+        font-size:18px;
+        color:#5C4B99;
+    }
+    
+    #faizan{
+        font-size: 32px;
+    }
+    
+    #tip{
+        margin-top: 6px;
+        font-size: 18px;
+        opacity: 0.5;
+    }
+    
+    #main-info{
+        font-family: mythird;
+        margin-top:7px ;
+        font-size: 19px;
+        padding-right: 8px;
+        padding-left: 8px;
+        word-break: normal;
+
+    }
+
+    
+.stuff{
+    font-family: myfontfirst;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px ;
+}
+
+
+    .stuff-know{
+        font-size: 28px;
+    }
+    
+    table, tr{
+        font-family: mythird;
+        font-size: 18px;
+        border: 2px solid rgba(39, 55, 77, 0.2);  
+        border: 2px solid rgba(39, 55, 77, 0.2);
+    }
+    
+    
+    .project-1{
+        font-family: myfontfirst;
+
+        margin-top: 200px;
+        margin-bottom: 25px;
+        font-size: 28px;
+        text-align: center;
+        color: #27374D;
+    }
+    
+    
+    .project-box1{
+        height: 400px;
+        width: 340px;
+        background-color: #DDE6ED;
+        border: 1px solid #DDE6ED;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.2);
+        margin-bottom: 50px;
+    
+    }
+    
+    .whisper{
+        text-align: center; 
+        font-size: 19px; 
+        margin-top: 5px;
+        color: #27374D;
+        padding-bottom: 8px;
+        border-bottom: 2px solid rgba(39, 55, 77, 0.1);
+    
+    }
+    
+    .whisper-project{
+        font-size: 15px;
+        padding: 8px;
+        font-family: mythird;
+        margin-bottom: 12px;
+
+    }
+    
+    #image-1{
+        width: 340px;
+     height: 200px;
+     border-radius: 10px 10px 0 0;
+    }
+    
+    
+    #image-2{
+        width: 340px;
+     height: 200px;
+     border-radius: 10px 10px 0 0;
+    }
+    
+    
+    #image-3{
+        width: 340px;
+     height: 200px;
+     border-radius: 10px 10px 0 0;
+    }
+    
+    .project-box2{
+        
+        height: 400px;
+    
+        width: 340px;
+        background-color: #DDE6ED;
+        
+        border: 1px solid #DDE6ED;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.1);
+        margin-bottom: 50px;    
+    }
+    
+    
+    .project-box3{
+        
+        height: 400px;
+        width: 340px;
+        background-color: #DDE6ED;
+        border: 1px solid #DDE6ED;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.1);
+        margin-bottom: 50px;
+    
+    
+    }
+    .git-hub{
+        margin-top: 13px;
+    }
+    
+    .git-hub-icon:hover{
+        color: #DDE6ED;
+        border: 2px solid #5C4B99;
+        background-color: #5C4B99;
+    }
+    
+    .git-hub-icon{
+        margin-left: 122px;
+        text-decoration: none;
+        padding: 5px;
+        text-align: center;
+        border: 2px solid #5C4B99;
+        border-radius: 12px;
+    }
+    
+    
+    .project-box4{
+        height: 400px;
+        width: 340px;
+        background-color: #DDE6ED;
+        border: 1px solid #DDE6ED;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.2);
+        margin-bottom: 50px;
+    }
+    
+    
+    .project-box5{
+        height: 400px;
+        width: 340px;
+        background-color: #DDE6ED;
+        border: 1px solid #DDE6ED;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.2);
+        margin-bottom: 50px;
+    
+    }
+    
+    
+    .footer{
+        color: #27374D;
+        background-color: #DDE6ED;
+        box-shadow: 0px 0px 6px 1px rgba(39, 55, 77, 0.1);
+        font-family: myfontfirst;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .rights{
+        font-size: 12px;
+        font-family: mythird;
+        padding: 40px 20px 40px 15px;
+    }
+    
+    .made-by{
+        font-family: mythird;
+        font-size: 12px;
+
+        padding: 40px 10px 40px 20px;
+        word-spacing: 2px;
+    }
+    
+    .icons-footer{
+        font-size: 12px;
+        text-decoration: none;
+        font-family: mythird;
+        padding: 40px 10px;
+        letter-spacing: 4px;
+    }
+    
+    
+    #foot-icon1{
+        color: #27374D;
+        text-decoration: none;
+    }
+    
+    
+    #foot-icon2{
+        color: #27374D;
+        text-decoration: none;
+    }
+    
+    
+    #foot-icon3{
+        color: #27374D;
+        text-decoration: none;
+    }
+    
+    
+    #foot-icon4{
+        color: #27374D;
+        text-decoration: none;
+    }
+    
+}
+
+
+
+
+@media (max-width: 650px) {
+
+    header{
+        font-family: myfontfirst;
+        margin-top: 0px ;
+        background-color: #DDE6ED;
+        padding: 10px 0px;
+        overflow-x: hidden; /* Hide horizontal overflow */
+        box-sizing: border-box;
+        color: #27374D;
+        width: 435px;
+        border-bottom: 1px solid rgba(39, 55, 77, 0.05);
+
+    
+    }
+    #hash-faiz{
+        box-sizing: border-box;
+        font-size: 18px;
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    
+    
+    #port-folio{
+        font-family: portfolio;
+        font-size: 23px;
+    }
+    
+     #cv-design {
+        box-sizing: border-box;
+        border: 2px solid #27374D;
+        border-radius: 12px;
+        font-size: 14px;
+        padding: 5px 5px 5px 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        color: #27374D;
+        transition: all 1s ease-in 0s ;
+    }
+    
+    
+    main{
+        font-family: myfontfirst;
+        /* width: 100vw; */
+        box-sizing: border-box;
+        color: #27374D;
+        background-color: #DDE6ED;
+        /* background-image: linear-gradient( #DDE6ED, #526D82); */
+        width: 435px;
+
+    
+    }
+    
+    .intro{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        padding-top: 160px;
+        text-align: center;
+        
+    }
+    #hello-there{
+        margin-top: 5px;
+        font-size:15px;
+        color:#5C4B99;
+    }
+    
+    #faizan{
+        font-size: 28px;
+    }
+    
+    #tip{
+        margin-top: 6px;
+        font-size: 15px;
+        opacity: 0.5;
+    }
+    
+    #main-info{
+        font-family: mythird;
+        margin-top:7px ;
+        font-size: 18px;
+        padding-right: 8px;
+        padding-left: 8px;
+        word-break: normal;
+
+    }
+    
+.stuff{
+    font-family: myfontfirst;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px ;
+}
+
+    
+    .stuff{
+        font-family: myfontfirst;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+        margin-top: 150px ;
+    }
+    
+    .stuff-know{
+        font-size: 22px;
+    }
+    
+    .table-stuff{
+        border-collapse: collapse;
+        margin-top: 18px;
+       text-align: left;
+       background-color: transparent;
+    }
+    table, tr{
+        font-family: mythird;
+        font-size: 16px;
+        border: 2px solid rgba(39, 55, 77, 0.2);  
+        border: 2px solid rgba(39, 55, 77, 0.2);
+    }
+    
+    .td-table{
+        padding: 12px 160px 12px 10px;
+    }
+    
+    .tr-table:hover, .tr-table:active{
+        color: #DDE6ED;
+        background-color: #27374D;
+    }
+    
+    
+    
+    .project-1{
+        font-family: myfontfirst;
+        margin-top: 200px;
+        margin-bottom: 20px;
+        font-size: 22px;
+        text-align: center;
+        color: #27374D;
+    }
+    
+    
+    .project-box1{
+        height: 420px;
+        width: 370px;
+        background-color: #DDE6ED;
+        border: 1px solid #DDE6ED;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.2);
+        margin-bottom: 50px;
+    
+    }
+    
+    .whisper{
+        text-align: center; 
+        font-size: 18px; 
+        margin-top: 5px;
+        color: #27374D;
+        padding-top: 3px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid rgba(39, 55, 77, 0.1);
+    
+    }
+    
+    .whisper-project{
+        font-size: 16px;
+        padding: 8px;
+        font-family: mythird;
+        margin-bottom: 20px;
+    }
+    
+    #image-1{
+        width: 370px;
+     height: 200px;
+     border-radius: 10px 10px 0 0;
+    }
+    
+    
+    #image-2{
+        width: 370px;
+        height: 200px;
+     border-radius: 10px 10px 0 0;
+    }
+    
+    
+    #image-3{
+        width: 370px;
+     height: 200px;
+     border-radius: 10px 10px 0 0;
+    }
+    
+    .project-box2{
+        height: 420px;
+        width: 370px;
+        background-color: #DDE6ED;
+        
+        border: 1px solid #DDE6ED;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.1);
+        margin-bottom: 50px;
+    
+    
+    }
+    
+    
+    .project-box3{
+        height: 420px;
+        width: 370px;
+        background-color: #DDE6ED;
+        border: 1px solid #DDE6ED;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.1);
+        margin-bottom: 50px;
+    
+    
+    }
+    .git-hub{
+        margin-top: 20px;
+    }
+    
+    .git-hub-icon{
+        text-decoration: none;
+        padding: 5px;
+        text-align: center;
+        border: 2px solid #5C4B99;
+        border-radius: 12px;
+        margin-left: 140px;
+    }
+
+    
+    .git-hub-icon:hover{
+        color: #DDE6ED;
+        border: 2px solid #5C4B99;
+        background-color: #5C4B99;
+    }
+    
+
+    
+    
+    .project-box4{
+        height: 420px;
+        width: 370px;
+        background-color: #DDE6ED;
+        border: 1px solid #DDE6ED;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.2);
+        margin-bottom: 50px;
+    }
+    
+    
+    .project-box5{
+        height: 420px;
+        width: 370px;
+        background-color: #DDE6ED;
+        border: 1px solid #DDE6ED;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px 2px rgba(39, 55, 77, 0.2);
+        margin-bottom: 50px;
+    
+    }
+    
+    
+    .footer{
+        color: #27374D;
+        background-color: #DDE6ED;
+        box-shadow: 0px 0px 6px 1px rgba(39, 55, 77, 0.1);
+        font-family: myfontfirst;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        width: 435px;
+    }
+    
+    .rights{
+        font-size: 13px;
+        font-family: mythird;
+        padding: 0px 20px 20px 15px;
+    }
+    
+    .made-by{
+        font-family: mythird;
+        font-size: 13px;
+        padding: 40px 10px 0px 10px;
+        word-spacing: 2px;
+    }
+    
+    .icons-footer{
+        font-size: 13px;
+        text-decoration: none;
+        font-family: mythird;
+        padding: 10px 10px 10px 10px;
+        letter-spacing: 4px;
+    }
+    
+    
+    #foot-icon1{
+        color: #27374D;
+        text-decoration: none;
+    }
+    
+    
+    #foot-icon2{
+        color: #27374D;
+        text-decoration: none;
+    }
+    
+    
+    #foot-icon3{
+        color: #27374D;
+        text-decoration: none;
+    }
+    
+    
+    #foot-icon4{
+        color: #27374D;
+        text-decoration: none;
+    }
+
+}
+
+
+
+
